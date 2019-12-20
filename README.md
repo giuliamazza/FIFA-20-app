@@ -1,4 +1,6 @@
 # FIFA 20 ANALYSIS 
+https://giuliamazza.shinyapps.io/FIFA20_analysis/
+
 The FIFA20 analysis app is a tool to study the statistics of the soccer players included in FIFA 20, a football simulation video game published by Electronic Arts as part of the FIFA series. 
 ## The dataset
 The starting dataset was composed of six tables, one per each year and 104 variables per each player. I decided to reduce the variables to 60, keeping the most interesting and valuable ones. Then I kept two tables, one with only the data from the year 2020, and one made by merging all the tables. Since the size of the dataset is very big, the app takes some minutes to charge completely. As I said at the end of this report, one of the improvements that I will try to do in the future is to add either a loading page that will cover the app for few seconds before showing the app or a loading bar that will disappear when the plots will be ready to be displayed.
